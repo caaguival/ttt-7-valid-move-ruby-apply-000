@@ -4,6 +4,7 @@ def valid_move?(board, index)
    "truth"
   else 
     position_taken?(board, index.between?(0, 8))
+    false
 end
    
 end
