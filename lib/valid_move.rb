@@ -3,6 +3,7 @@ def valid_move?(board, index)
  if position_taken?(board, index) == false
    "truth"
  else position_taken?(board, index) != false
+   puts "Sorry, please choose a choice on the board from 1-9"
 end
    
 end
