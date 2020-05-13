@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if board[index] == 0 && board[index] == 5
+ board[index] == 0 && board[index] == 5
     "Good Move!"
 end
 end
