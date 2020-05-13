@@ -3,6 +3,7 @@ def valid_move?(board, index)
  if position_taken?(board, index) == false
    "truth"
  else position_taken?(board, index) != index.between?(0, 8)
+   puts "Please choose again"
 end
    
 end
